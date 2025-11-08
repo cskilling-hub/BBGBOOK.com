@@ -1,3 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: #fff6e5;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Make the book cover centered and responsive */
+.book-cover {
+  width: 90%;
+  max-width: 350px;      /* Keeps it nicely sized on desktop */
+  border-radius: 14px;   /* Soft rounded corners */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Adds a nice hover effect */
+.book-cover:hover {
+  transform: scale(1.02);
+}
+
+/* Keep spacing and responsiveness clean */
+h1 {
+  font-size: 2.3em;
+  margin: 0.5em 0 0.2em;
+}
+h2 {
+  font-weight: 400;
+  color: #444;
+  margin-top: 0;
+}
+p {
+  max-width: 550px;
+  line-height: 1.5;
+  margin: 1em auto;
+  font-size: 1.05em;
+}
+a.button {
+  background: #f4c542;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+a.button:hover {
+  background: #ffd766;
+}
+footer {
+  margin-top: 40px;
+  font-size: 0.85em;
+  color: #777;
+}
 <img class="book-cover" src="https://github.com/cskilling-hub/BBGBOOK.com/blob/b0da4aac9fc119c9e52126e8a040a9c7387f2c44/Barrys_Big_Goal_Full_Cover.png?raw=true" alt="Barry's Big Goal cover" />
 <!DOCTYPE html>
 <html lang="en">
